@@ -42,7 +42,7 @@ namespace urban_planner
         {
             _owner = name;
             Date();
-            Console.WriteLine($"{_owner} has purchased {_address}. Deigned by {_designer} and constructed on {_dateConstructed} with {Volume} cubic meters of space.");
+            Console.WriteLine($"{_owner} has purchased {_address}. \n Designed by {_designer} and constructed on {_dateConstructed}. \n It has {Volume} cubic meters of space.");
         }
     }
 }

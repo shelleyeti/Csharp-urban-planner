@@ -30,7 +30,7 @@ namespace urban_planner
 
             foreach (Building building in nashville.BuildingList)
             {
-                Console.WriteLine($"This is the address of a building in Nashville: {building.BuildingInfo}.");
+                Console.WriteLine($"This is the address of a building in {nashville.CityName}: {building.BuildingInfo}.");
             }
         }
     }
